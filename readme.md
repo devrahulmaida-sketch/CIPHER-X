@@ -145,3 +145,12 @@ Based on [Mark-XXXV](https://github.com/FatihMakes/Mark-XXXV) by [@FatihMakes](h
 ⭐ **Star this repository** if you find it useful!
 
 *"The quieter you become, the more you can hear."* 🕵️‍♂️
+
+
+---
+## 🔗 Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-devrahulmaida--sketch-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devrahulmaida-sketch)
+[![Twitter](https://img.shields.io/badge/Twitter-@dev_RahulMaida-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/dev_RahulMaida)
+[![Email](https://img.shields.io/badge/Email-dev.rahulmaida%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dev.rahulmaida@gmail.com)
+

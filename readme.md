@@ -1,40 +1,42 @@
 # 🛡️ CIPHER-X
 
-### Your Personal Digital Guardian — Next-Generation AI Assistant
+### Your Personal Digital Guardian — Advanced AI Assistant with Cybersecurity Toolkit
 
-[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange?style=for-the-badge)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Gemini](https://img.shields.io/badge/Gemini%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Stars](https://img.shields.io/github/stars/devrahulmaida-sketch/CIPHER-X?style=for-the-badge)](https://github.com/devrahulmaida-sketch/CIPHER-X/stargazers)
+[![Forks](https://img.shields.io/github/forks/devrahulmaida-sketch/CIPHER-X?style=for-the-badge)](https://github.com/devrahulmaida-sketch/CIPHER-X/network/members)
 
 ---
 
 ## 🤖 What is CIPHER-X?
 
-**CIPHER-X** is an advanced voice-driven AI assistant designed for cybersecurity enthusiasts and power users. Like a digital guardian, it hears, understands, responds, and executes tasks across your system — while incorporating security-focused features for the aspiring ethical hacker.
+**CIPHER-X** is an advanced voice-driven AI assistant with an integrated cybersecurity toolkit. Like a digital guardian, it hears, understands, responds, and executes tasks across your system — while providing security tools for ethical hacking and cybersecurity learning.
 
 > *"In a world of digital threats, CIPHER-X is your first line of defense."*
 
 ---
 
-## ✨ Capabilities
+## ✨ Features
 
-### 🔐 Core Security & AI Features
+### 🗣️ Voice AI Assistant (Powered by Gemini)
 | Feature | Description |
 |---------|-------------|
-| **Real-time Voice Interaction** | Natural conversation with instant response in any language |
-| **System Control** | Launch apps, manage files, execute terminal commands |
-| **Autonomous Task Execution** | Plans and completes complex multi-step workflows |
-| **Visual Awareness** | Full screen analysis and webcam understanding |
-| **Persistent Memory** | Learns your name, preferences, projects, relationships |
-| **Security Monitoring** | System status and anomaly detection |
-| **Network Intelligence** | Analyze connections, ports, and network activity |
+| **Real-time Voice Interaction** | Natural conversation with instant response |
+| **System Control** | Launch apps, manage files, execute commands |
+| **Visual Awareness** | Screen and webcam understanding |
+| **Persistent Memory** | Learns preferences across sessions |
 
-### 🎮 Entertainment & Productivity
-- Steam & Epic Games integration
-- Browser control (including incognito)
-- File management and search
-- Application launching
-- Terminal command execution
+### 🛡️ Cybersecurity Toolkit
+| Tool | Description |
+|------|-------------|
+| **Security Monitor** | System info, network connections, port monitoring |
+| **Port Scanner** | Scan local ports for security assessment |
+| **Audit Logger** | Track system events and security incidents |
+| **Password Generator** | Generate secure passwords |
+| **Hash Tools** | MD5, SHA256, SHA512 hashing utilities |
+| **Encode/Decode** | Base64, Hex, Caesar, ROT13 encoding |
 
 ---
 
@@ -53,7 +55,55 @@ playwright install
 python main.py
 ```
 
-Enter your free **Gemini API key** on first launch.
+---
+
+## 📁 Project Structure
+
+```
+CIPHER-X/
+├── security/              # Cybersecurity modules
+│   ├── __init__.py
+│   ├── security_monitor.py   # System & network monitoring
+│   ├── port_scanner.py       # Port scanning utilities
+│   └── audit_logger.py       # Security event logging
+├── tools/                 # Security tools
+│   ├── __init__.py
+│   ├── password_gen.py       # Password generation & strength
+│   ├── hash_tools.py        # Hashing utilities
+│   └── encode_decode.py     # Encoding/decoding tools
+├── actions/               # AI assistant actions
+├── agent/                 # AI agent modules
+├── memory/                # Memory management
+├── core/                  # Core AI prompts
+├── main.py                # Main entry point
+└── ui.py                  # User interface
+```
+
+---
+
+## 🛠️ Cybersecurity Tools Usage
+
+```python
+# Security Monitor
+from security import get_system_info, quick_security_scan
+sys_info = get_system_info()
+print(sys_info)
+
+# Port Scanner
+from security import quick_scan
+result = quick_scan("127.0.0.1")
+print(result)
+
+# Password Generator
+from tools import generate_password, check_password_strength
+password = generate_password(16)
+strength = check_password_strength(password)
+
+# Hash Tools
+from tools import hash_sha256, verify_hash
+hashed = hash_sha256("mypassword")
+is_valid = verify_hash("mypassword", hashed)
+```
 
 ---
 
@@ -68,42 +118,27 @@ Enter your free **Gemini API key** on first launch.
 
 ---
 
-## 🛠️ Advanced Features for Cybersecurity Enthusiasts
+## ⚠️ License & Ethics
 
-```python
-# Network analysis capabilities
-# Port scanning awareness
-# System process monitoring
-# Security audit logging
-# Ethical hacking workflow integration
-```
+Licensed under **MIT License**
+
+⚠️ **FOR EDUCATIONAL AND ETHICAL USE ONLY** ⚠️
+
+This software includes cybersecurity tools for learning and ethical security testing purposes only. Unauthorized scanning or testing of systems you do not own or have explicit permission to test is illegal and prohibited.
 
 ---
 
-## 📊 Project Roadmap
+## 👨‍💻 Author
 
-| Version | Milestone | Status |
-|---------|-----------|--------|
-| v1.0 | Basic AI Assistant | ✅ Complete |
-| v2.0 | Security Extensions | 🔄 In Progress |
-| v3.0 | Penetration Testing Suite | 📋 Planned |
+**Rahul Maida** - [@devrahulmaida-sketch](https://github.com/devrahulmaida-sketch)
+
+- 11th Grade Student | JEE Aspirant | Future White Hat Hacker
 
 ---
 
-## ⚠️ License
+## 🙏 Acknowledgments
 
-Personal and non-commercial use only.  
-Licensed under **Creative Commons BY-NC 4.0**.
-
-Designed by a cybersecurity enthusiast for educational purposes.
-
----
-
-## 🔗 Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-devrahulmaida--sketch-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devrahulmaida-sketch)
-[![Email](https://img.shields.io/badge/Email-dev.rahulmaida%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dev.rahulmaida@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20Maida-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-maida-257a94402)
+Based on [Mark-XXXV](https://github.com/FatihMakes/Mark-XXXV) by [@FatihMakes](https://github.com/FatihMakes) - The original JARVIS-style AI assistant
 
 ---
 
